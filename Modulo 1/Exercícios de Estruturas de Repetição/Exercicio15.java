@@ -16,7 +16,7 @@ public class Exercicio15 {
         int num2 = 1;
 
         System.out.println("Segue a série de Fibonnacci");
-        for (int i = 1; i <= posicao; i++){
+        for (int i = 0; i < posicao; i++){
             System.out.print(num1 + " ");
             resultado = num1 + num2;
             num1 = num2;

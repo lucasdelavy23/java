@@ -10,7 +10,7 @@ public class Exercicio10 {
     entrada.nextLine();
 
     System.out.println("O numero digitado foi " + numero + ". \nSegue a lista dos números até 1000 que são divisiveis por " + numero + ".\n");
-    for (int i = 0; i <= 1000;i++){
+    for (int i = 1; i <= 1000;i++){
         if (i % numero == 0){
             System.out.println(i);
         }
