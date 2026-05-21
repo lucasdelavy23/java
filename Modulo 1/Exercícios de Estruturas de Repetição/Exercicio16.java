@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Exercicio16 {
     public static void main(String[] args) {
+        /*Dado um número digitado pelo usuário, verifique se ele é primo */
         System.out.println("Digite um valor para saber se ele é primo:");
 
         Scanner entrada = new Scanner(System.in);
